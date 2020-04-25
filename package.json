@@ -1,0 +1,28 @@
+{
+  "name": "isolationexpert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salome08/isolationExpert.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salome08/isolationExpert/issues"
+  },
+  "homepage": "https://github.com/salome08/isolationExpert#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "create-react-app": "^3.4.1",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^5.9.10",
+    "nodemon": "^2.0.3"
+  }
+}
