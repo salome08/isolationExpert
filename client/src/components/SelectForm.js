@@ -246,7 +246,9 @@ const SelectForm = () => {
         ))}
 
       {/* STEP 5 */}
-      {step === 4 && <DialogForm setStep={setStep} step={step} />}
+      {step === 4 && (
+        <DialogForm setStep={setStep} step={step} selectedValues={values} />
+      )}
     </Grid>
   );
 };
